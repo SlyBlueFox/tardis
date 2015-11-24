@@ -27,6 +27,7 @@ def find_wildcard(templates, show_number):
     return templates[show_number][0].index('##')
 
 
+# Moves and Renames video file
 def move_mkv(src, dst):
     logging.info("Source: %s"% src)
     logging.info("Destination: %s" % dst)
@@ -53,10 +54,13 @@ def main():
             if scanned_file.endswith('.mkv'):
                 mkvs.append(scanned_file)
 
+    # Processes each found MKV file
     for i, elmt in enumerate(mkvs):
         logging.info("Processing Video: %s" % str(elmt))
 
         show_index = find_show(elmt, shows)
+
+        # Only processes matched MKVs
         if show_index is None:
             logging.info("NO MATCH FOUND\n")
         else:
@@ -71,6 +75,7 @@ def main():
             source_path = config[0] + elmt
             destination_path = config[1] + shows[show_index][1].replace('##', episode_number)
             move_mkv(source_path, destination_path)
+
     logging.info("--- SCAN COMPLETE ---\n\n")
 
 main()
