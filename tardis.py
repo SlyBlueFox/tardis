@@ -14,7 +14,7 @@ def compare(s1, s2):
 def find_show(video, array):
     for i, elmt in enumerate(array):
         if compare(video, elmt[0]):
-            print('Show Found!\nMatched Template:\n')
+            print('Show Found!\n')
             print("Found MKV: %s\nMatched Template: %s\nLocation Template: %s\n" % (video, elmt[0], elmt[1]))
 
             return i
