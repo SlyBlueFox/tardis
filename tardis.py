@@ -15,9 +15,10 @@ def compare(s1, s2):
 def find_show(video, array):
     for i, elmt in enumerate(array):
         if compare(video, elmt[0]):
-            print('Show Found!\n')
-            print("Found MKV: %s\nMatched Template: %s\nLocation Template: %s\n" % (video, elmt[0], elmt[1]))
-
+            logging.info('Show Found!')
+            logging.info("Found MKV: %s" % video)
+            logging.info("Matched Template: %s" % elmt[0])
+            logging.info("Location Template: %s" % elmt[1])
             return i
 
 
@@ -28,13 +29,16 @@ def find_wildcard(templates, show_number):
 
 def move_mkv(src, dst):
     #os.renames(src,dst)
-    print("Moved Successfully\nSource: %s\nDestination: %s" % (src, dst))
+    logging.info("Source: %s"% src)
+    logging.info("Destination: %s" % dst)
+    logging.info("MOVED SUCCESSFULLY\n")
 
 
 def main():
     # Logger config
-    logging.basicConfig(filename='tardis.log', level=logging.DEBUG)
-    logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+    logging.basicConfig(filename='tardis.log', level=logging.DEBUG,
+                        format='%(asctime)s - %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+    logging.info("--- STARTING SCAN ---\n")
 
     # Reads csv into array for processing
     shows = list(csv.reader(open('test.csv')))
@@ -50,20 +54,23 @@ def main():
                 mkvs.append(scanned_file)
 
     for i, elmt in enumerate(mkvs):
-        print("\n\n")
-        print(i, elmt)
+        logging.info("Processing Video: %s" % str(elmt))
 
         show_index = find_show(elmt, shows)
-        print("Show Index: %d" % show_index)
+        if show_index is None:
+            logging.info("NO MATCH FOUND\n")
+        else:
+            logging.info("Show Index: %d" % show_index)
 
-        show_wildcard = find_wildcard(shows, show_index)
-        print("Wildcard Location: %d" % show_wildcard)
+            show_wildcard = find_wildcard(shows, show_index)
+            logging.info("Wildcard Location: %d" % show_wildcard)
 
-        episode_number = elmt[show_wildcard] + elmt[show_wildcard+1]
-        print("Episode Number: %s\n" % episode_number)
+            episode_number = elmt[show_wildcard] + elmt[show_wildcard+1]
+            logging.info("Episode Number: %s" % episode_number)
 
-        source_path = config[0] + elmt
-        destination_path = config[1] + shows[show_index][1].replace('##', episode_number)
-        move_mkv(source_path, destination_path)
+            source_path = config[0] + elmt
+            destination_path = config[1] + shows[show_index][1].replace('##', episode_number)
+            move_mkv(source_path, destination_path)
+    logging.info("--- SCAN COMPLETE ---\n\n")
 
 main()
