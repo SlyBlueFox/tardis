@@ -11,10 +11,10 @@ def compare(s1, s2):
 
 
 # Scans for found video in provided list of known shows
-def find_show(video, csv):
-    for i, elmt in enumerate(csv):
-        if compare(video, csv[i][0]):
-            print(video, csv[i][0])
+def find_show(video, array):
+    for i, elmt in enumerate(array):
+        if compare(video, elmt[0]):
+            print(video, elmt[0])
             print('Show Found')
             return i
 
