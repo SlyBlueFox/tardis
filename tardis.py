@@ -28,9 +28,9 @@ def find_wildcard(templates, show_number):
 
 
 def move_mkv(src, dst):
-    #os.renames(src,dst)
     logging.info("Source: %s"% src)
     logging.info("Destination: %s" % dst)
+    #os.renames(src, dst)
     logging.info("MOVED SUCCESSFULLY\n")
 
 
