@@ -2,6 +2,7 @@
 import csv
 import os
 import string
+import logging
 
 
 # Compare text of 2 strings ignoring punctuation whitespace and numbers
@@ -25,9 +26,22 @@ def find_wildcard(templates, show_number):
     return templates[show_number][0].index('##')
 
 
+def move_mkv(src, dst):
+    #os.renames(src,dst)
+    print("Moved Successfully\nSource: %s\nDestination: %s" % (src, dst))
+
+
 def main():
+    logging.basicConfig(filename='example.log',level=logging.DEBUG,format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+    logging.debug('This message should go to the log file')
+    logging.info('So should this')
+    logging.warning('And this, too')
+
     # Reads csv into array for processing
-    shows = list(csv.reader(open(r'test.csv')))
+    shows = list(csv.reader(open('test.csv')))
+
+    # Loads default.cfg with source and destination paths
+    config = [line.rstrip('\n') for line in open('default.cfg')]
 
     # Scan directory for mkv files and load into array
     mkvs = []
@@ -45,7 +59,8 @@ def main():
     episode_number = mkvs[0][show_wildcard] + mkvs[0][show_wildcard+1]
     print("Episode Number: %s\n" % episode_number)
 
-    lulz = shows[show_index][1].replace('##', episode_number)
-    print("Output Filename: %s" % lulz)
+    source_path = config[0] + mkvs[0]
+    destination_path = config[1] + shows[show_index][1].replace('##', episode_number)
+    move_mkv(source_path, destination_path)
 
 main()
