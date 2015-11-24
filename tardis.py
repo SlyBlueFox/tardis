@@ -25,3 +25,4 @@ for i, elmt in enumerate(array):
         #lulz = array[i][0].replace('##', '02')
         #print(lulz)
         print(mkvs[0][28], mkvs[0][29])
+
