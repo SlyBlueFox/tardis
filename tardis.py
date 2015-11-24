@@ -22,7 +22,6 @@ for i, elmt in enumerate(array):
         show_index = i
         print("Show Index: %d" % show_index)
         print("Wildcard Location: %d" % array[i][0].index('##'))
-        #lulz = array[i][0].replace('##', '02')
-        #print(lulz)
+        '''lulz = array[i][0].replace('##', '02')
+        print(lulz)'''
         print(mkvs[0][28], mkvs[0][29])
-
