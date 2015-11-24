@@ -14,8 +14,9 @@ def compare(s1, s2):
 def find_show(video, array):
     for i, elmt in enumerate(array):
         if compare(video, elmt[0]):
-            print(video, elmt[0])
-            print('Show Found')
+            print('Show Found!\nMatched Template:\n')
+            print("Found MKV: %s\nMatched Template: %s\nLocation Template: %s\n" % (video, elmt[0], elmt[1]))
+
             return i
 
 
@@ -41,9 +42,10 @@ def main():
     show_wildcard = find_wildcard(shows, show_index)
     print("Wildcard Location: %d" % show_wildcard)
 
-    '''
-            lulz = shows[i][0].replace('##', '02')
-            print(lulz)
-            print(mkvs[0][28], mkvs[0][29])
-    '''
+    episode_number = mkvs[0][show_wildcard] + mkvs[0][show_wildcard+1]
+    print("Episode Number: %s\n" % episode_number)
+
+    lulz = shows[show_index][1].replace('##', episode_number)
+    print("Output Filename: %s" % lulz)
+
 main()
