@@ -32,10 +32,9 @@ def move_mkv(src, dst):
 
 
 def main():
-    logging.basicConfig(filename='example.log',level=logging.DEBUG,format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
-    logging.debug('This message should go to the log file')
-    logging.info('So should this')
-    logging.warning('And this, too')
+    # Logger config
+    logging.basicConfig(filename='tardis.log', level=logging.DEBUG)
+    logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 
     # Reads csv into array for processing
     shows = list(csv.reader(open('test.csv')))
@@ -50,17 +49,21 @@ def main():
             if scanned_file.endswith('.mkv'):
                 mkvs.append(scanned_file)
 
-    show_index = find_show(mkvs[0], shows)
-    print("Show Index: %d" % show_index)
+    for i, elmt in enumerate(mkvs):
+        print("\n\n")
+        print(i, elmt)
 
-    show_wildcard = find_wildcard(shows, show_index)
-    print("Wildcard Location: %d" % show_wildcard)
+        show_index = find_show(elmt, shows)
+        print("Show Index: %d" % show_index)
 
-    episode_number = mkvs[0][show_wildcard] + mkvs[0][show_wildcard+1]
-    print("Episode Number: %s\n" % episode_number)
+        show_wildcard = find_wildcard(shows, show_index)
+        print("Wildcard Location: %d" % show_wildcard)
 
-    source_path = config[0] + mkvs[0]
-    destination_path = config[1] + shows[show_index][1].replace('##', episode_number)
-    move_mkv(source_path, destination_path)
+        episode_number = elmt[show_wildcard] + elmt[show_wildcard+1]
+        print("Episode Number: %s\n" % episode_number)
+
+        source_path = config[0] + elmt
+        destination_path = config[1] + shows[show_index][1].replace('##', episode_number)
+        move_mkv(source_path, destination_path)
 
 main()
