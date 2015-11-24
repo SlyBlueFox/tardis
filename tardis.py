@@ -1,4 +1,4 @@
-# Torrented Anime Renamer Download Induced Sorter
+# Torrented Anime Renaming Download Induced Sorter
 import csv
 import os
 import string
