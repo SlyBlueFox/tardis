@@ -3,6 +3,7 @@ import csv
 import os
 import string
 import logging
+import shutil
 
 
 # Compare text of 2 strings ignoring punctuation whitespace and numbers
@@ -16,7 +17,6 @@ def find_show(video, array):
     for i, elmt in enumerate(array):
         if compare(video, elmt[0]):
             logging.info('Show Found!')
-            logging.info("Found MKV: %s" % video)
             logging.info("Matched Template: %s" % elmt[0])
             logging.info("Location Template: %s" % elmt[1])
             return i
@@ -31,11 +31,14 @@ def find_wildcard(templates, show_number):
 def move_mkv(src, dst):
     logging.info("Source: %s"% src)
     logging.info("Destination: %s" % dst)
-    #os.renames(src, dst)
+    #shutil.move(src, dst)
     logging.info("MOVED SUCCESSFULLY\n")
 
 
 def main():
+    src_cfg = "/mnt/media/downloads/transmission/complete/"
+    dst_cfg = "/mnt/media/videos/Anime/"    
+
     # Logger config
     logging.basicConfig(filename='tardis.log', level=logging.DEBUG,
                         format='%(asctime)s - %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
@@ -44,11 +47,9 @@ def main():
     # Reads csv into array for processing
     shows = list(csv.reader(open('animelist.csv')))
 
-    # Loads default.cfg with source and destination paths
-    config = [line.rstrip('\n') for line in open('default.cfg')]
-
     # Scan directory for mkv files and load into array
     mkvs = []
+    #for root, dirs, files in os.walk("/mnt/media/downloads/transmission/complete/"):
     for root, dirs, files in os.walk("."):
         for scanned_file in files:
             if scanned_file.endswith('.mkv'):
@@ -72,8 +73,8 @@ def main():
             episode_number = elmt[show_wildcard] + elmt[show_wildcard+1]
             logging.info("Episode Number: %s" % episode_number)
 
-            source_path = config[0] + elmt
-            destination_path = config[1] + shows[show_index][1].replace('##', episode_number)
+            source_path = src_cfg + elmt
+            destination_path = dst_cfg + shows[show_index][1].replace('##', episode_number)
             move_mkv(source_path, destination_path)
 
     logging.info("--- SCAN COMPLETE ---\n\n")
