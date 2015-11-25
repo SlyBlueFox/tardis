@@ -42,7 +42,7 @@ def main():
     logging.info("--- STARTING SCAN ---\n")
 
     # Reads csv into array for processing
-    shows = list(csv.reader(open('test.csv')))
+    shows = list(csv.reader(open('animelist.csv')))
 
     # Loads default.cfg with source and destination paths
     config = [line.rstrip('\n') for line in open('default.cfg')]
