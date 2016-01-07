@@ -1,0 +1,45 @@
+tasks:
+  anime:
+    rss: http://www.nyaa.se/?page=rss&cats=1_37
+    regexp:
+      accept:
+        - (.*)HorribleSubs(.*)Diabolik(.*)Lovers(.*)Blood(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Young(.*)Black(.*)Jack(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Return(.*)of(.*)Kings(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Noragami(.*)Aragoto(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Concrete(.*)Revolutio(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Haikyuu(.*)S2(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Owarimonogatari(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Shingeki(.*)Kyojin(.*)Chuugakkou(.*)1080(.*)
+        - (.*)HorribleSubs(.*)One(.*)Punch(.*)Man(.*)1080(.*)
+        - (.*)HorribleSubs(.*)High(.*)School(.*)Star(.*)Musical(.*)1080(.*)
+        - (.*)HorribleSubs(.*)YuruYuri(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Dance(.*)with(.*)Devils(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Rakudai(.*)Kishi(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Ame(.*)iro(.*)Cocoa(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Hidan(.*)Aria(.*)AA(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Taimadou(.*)Gakuen(.*)35(.*)Shiken(.*)Shoutai(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Ashimoto(.*)Shitai(.*)Umatteiru(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Subete(.*)Naru(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Garo(.*)Crimson(.*)Moon(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Gochuumon(.*)Usagi(.*)S2(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Seraph(.*)End(.*)S2(.*)1080(.*)
+        #Winter 2016
+        - (.*)HorribleSubs(.*)Prince(.*)Stride(.*)Alternative(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Musaigen(.*)Phantom(.*)World(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Haruchika(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Boku(.*)Dake(.*)Machi(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Assassination(.*)Classroom(.*)S2(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Norn9(.*)720(.*)
+        - (.*)HorribleSubs(.*)Shoujo(.*)Kouya(.*)Mezasu(.*)720(.*)
+    transmission:
+      host: localhost
+      port: 9091
+    clean_transmission:
+      host: localhost
+      port: 9091
+      finished_for: 10 minutes
+schedules:
+  - tasks: '*'
+    interval:
+      minutes: 5
