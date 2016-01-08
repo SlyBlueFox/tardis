@@ -67,6 +67,7 @@ def main():
                 mkvs.append(scanned_file)
 
     # Processes each found MKV file
+    import_count = 0
     for i, elmt in enumerate(mkvs):
         logging.info("Processing Video: %s" % str(elmt))
 
@@ -87,7 +88,11 @@ def main():
             source_path = src_cfg + elmt
             destination_path = dst_cfg + shows[show_index][1].replace('##', episode_number)
             move_mkv(source_path, destination_path)
+            import_count += 1
 
+    if import_count > 0:
+        os.system("http://IPHERE:32400/library/sections/5/refresh?X-Plex-Token=TOKENHERE")
+    logging.info("Imported %d episodes" % import_count)
     logging.info("--- SCAN COMPLETE ---\n\n")
 
 main()
