@@ -92,7 +92,7 @@ def main():
 
     if import_count > 0:
         os.system("http://IPHERE:32400/library/sections/5/refresh?X-Plex-Token=TOKENHERE")
-    logging.info("Imported %d episodes" % import_count)
+    logging.info("Imported %d episodes\n" % import_count)
     logging.info("--- SCAN COMPLETE ---\n\n")
 
 main()
