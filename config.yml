@@ -32,6 +32,7 @@ tasks:
         - (.*)HorribleSubs(.*)Assassination(.*)Classroom(.*)S2(.*)1080(.*)
         - (.*)HorribleSubs(.*)Norn9(.*)720(.*)
         - (.*)HorribleSubs(.*)Shoujo(.*)Kouya(.*)Mezasu(.*)720(.*)
+        - (.*)HorribleSubs(.*)Divine(.*)Gate(.*)1080(.*)
     transmission:
       host: localhost
       port: 9091
