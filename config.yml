@@ -36,6 +36,9 @@ tasks:
         - (.*)HorribleSubs(.*)Koukaku(.*)Pandora(.*)1080(.*)
         - (.*)HorribleSubs] gate(.*)1080(.*)
         - (.*)HorribleSubs(.*)Shouwa(.*)Genroku(.*)Rakugo(.*)Shinjuu(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Bubuki(.*)Buranki(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Luck(.*)Logic(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Durarara(.*)X2(.*)1080(.*)
     transmission:
       host: localhost
       port: 9091
