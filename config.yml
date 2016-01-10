@@ -39,6 +39,7 @@ tasks:
         - (.*)HorribleSubs(.*)Bubuki(.*)Buranki(.*)1080(.*)
         - (.*)HorribleSubs(.*)Luck(.*)Logic(.*)1080(.*)
         - (.*)HorribleSubs(.*)Durarara(.*)X2(.*)1080(.*)
+        - (.*)HorribleSubs(.*)World(.*)Trigger(.*)1080(.*)
     transmission:
       host: localhost
       port: 9091
