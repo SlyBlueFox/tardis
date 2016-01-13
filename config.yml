@@ -47,6 +47,7 @@ tasks:
         - (.*)HorribleSubs(.*)Saijaku(.*)Muhai(.*)Bahamut(.*)1080(.*)
         - (.*)HorribleSubs(.*)Akagami(.*)Shirayukihime(.*)1080(.*)
         - (.*)HorribleSubs(.*)Kanata(.*)Four(.*)Rhythm(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Subarashii(.*)Shukufuku(.*)1080(.*)
     transmission:
       host: localhost
       port: 9091
