@@ -43,6 +43,10 @@ tasks:
         - (.*)HorribleSubs(.*)Dimension(.*)W(.*)1080(.*)
         - (.*)HorribleSubs(.*)Nijiiro(.*)Days(.*)1080(.*)
         - (.*)HorribleSubs(.*)Hai(.*)Gensou(.*)Grimgar(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Dagashi(.*)Kashi(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Saijaku(.*)Muhai(.*)Bahamut(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Akagami(.*)Shirayukihime(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Kanata(.*)Four(.*)Rhythm(.*)1080(.*)
     transmission:
       host: localhost
       port: 9091
