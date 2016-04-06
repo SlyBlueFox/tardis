@@ -48,6 +48,14 @@ tasks:
         - (.*)HorribleSubs(.*)Akagami(.*)Shirayukihime(.*)1080(.*)
         - (.*)HorribleSubs(.*)Kanata(.*)Four(.*)Rhythm(.*)1080(.*)
         - (.*)HorribleSubs(.*)Subarashii(.*)Shukufuku(.*)1080(.*)
+        #Spring 2016
+        - (.*)HorribleSubs(.*)Brotherhood(.*)Final(.*)Fantasy(.*)XV(.*)720(.*)
+        - (.*)HorribleSubs(.*)Mayoiga(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Boku(.*)Hero(.*)Academia(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Endride(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Bakuon(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Joker(.*)Game(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Seisen(.*)Cerberus(.*)1080(.*)
     transmission:
       host: localhost
       port: 9091
