@@ -57,6 +57,7 @@ tasks:
         - (.*)HorribleSubs(.*)Joker(.*)Game(.*)1080(.*)
         - (.*)HorribleSubs(.*)Seisen(.*)Cerberus(.*)1080(.*)
         - (.*)HorribleSubs(.*)Re(.*)Zero(.*)kara(.*)Hajimeru(.*)Isekai(.*)Seikatsu(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Ushio(.*)Tora(.*)1080(.*)
     transmission:
       host: localhost
       port: 9091
