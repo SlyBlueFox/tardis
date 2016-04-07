@@ -62,7 +62,7 @@ tasks:
         - (.*)HorribleSubs(.*)Super(.*)Lovers(.*)1080(.*)
         - (.*)HorribleSubs(.*)Bungou(.*)Stray(.*)Dogs(.*)1080(.*)
         - (.*)HorribleSubs(.*)Netoge(.*)Yome(.*)Onnanoko(.*)Omotta(.*)1080(.*)
-        - (.*)HorribleSubs(.*)Koutetsujou(.*)Kabaneri(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Kabaneri(.*)Iron(.*)Fortress(.*)720(.*)
     transmission:
       host: localhost
       port: 9091
