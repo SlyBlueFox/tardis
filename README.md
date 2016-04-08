@@ -1,2 +1,2 @@
 # tardis
-Torrented Anime Renaming Download Induced Sorter
+Torrented Anime Rename Download Ingest Sort
