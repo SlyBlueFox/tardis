@@ -63,6 +63,8 @@ tasks:
         - (.*)HorribleSubs(.*)Bungou(.*)Stray(.*)Dogs(.*)1080(.*)
         - (.*)HorribleSubs(.*)Netoge(.*)Yome(.*)Onnanoko(.*)Omotta(.*)1080(.*)
         - (.*)HorribleSubs(.*)Kabaneri(.*)Iron(.*)Fortress(.*)720(.*)
+        - (.*)HorribleSubs(.*)Shounen(.*)Maid(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Sakamoto(.*)1080(.*)
     transmission:
       host: localhost
       port: 9091
