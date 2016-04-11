@@ -90,8 +90,8 @@ def main():
             move_mkv(source_path, destination_path)
             import_count += 1
 
-    if import_count > 0:
-        os.system("http://IPHERE:32400/library/sections/5/refresh?X-Plex-Token=TOKENHERE")
+#    if import_count > 0:
+#        os.system("http://IPHERE:32400/library/sections/5/refresh?X-Plex-Token=TOKENHERE")
     logging.info("Imported %d episodes\n" % import_count)
     logging.info("--- SCAN COMPLETE ---\n\n")
 
