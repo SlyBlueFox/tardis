@@ -65,6 +65,9 @@ tasks:
         - (.*)HorribleSubs(.*)Kabaneri(.*)Iron(.*)Fortress(.*)720(.*)
         - (.*)HorribleSubs(.*)Shounen(.*)Maid(.*)1080(.*)
         - (.*)HorribleSubs(.*)Sakamoto(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Kiznaiver(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Tanaka(.*)Itsumo(.*)Kedaruge(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Flying(.*)Witch(.*)1080(.*)
     transmission:
       host: localhost
       port: 9091
