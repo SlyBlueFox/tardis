@@ -9,7 +9,7 @@ import shutil
 # Compare text of 2 strings ignoring punctuation whitespace and numbers
 def compare(s1, s2):
         remove = string.punctuation + string.whitespace + string.digits
-        return s1.translate(None, remove) == s2.translate(None, remove)
+        return s1.lower().translate(None, remove) == s2.lower().translate(None, remove)
 
 
 # Scans for found video in provided list of known shows
