@@ -46,17 +46,21 @@ def move_mkv(src, dst):
 
 
 def main():
+    # Config Vars
     src_cfg = "/mnt/vol1/downloads/transmission/complete/"
     dst_cfg = "/mnt/vol1/Video/Anime/"
+    swd_cfg = "/mnt/vol1/scripts/tardis/"
+    log_cfg = "doctor.log"
+    lst_cfg = "animelist.csv"
 
     # Logger config
-    logging.basicConfig(filename='/mnt/vol1/scripts/tardis/doctor.log', level=logging.DEBUG,
+    logging.basicConfig(filename=swd_cfg+log_cfg, level=logging.DEBUG,
                         format='%(asctime)s - %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
     logging.info("--- STARTING SCAN ---\n")
 
     # Reads csv into array for processing
     try:
-        shows = list(csv.reader(open('/mnt/vol1/scripts/tardis/animelist.csv')))
+        shows = list(csv.reader(open(swd_cfg+lst_cfg)))
     except (OSError, IOError) as e:
         logging.info('--- CRITICAL ERROR --- ' + str(e) + '\n')
         sys.exit(1)
@@ -66,7 +70,7 @@ def main():
 
     # Scan directory for mkv files and load into array
     mkvs = []
-    for root, dirs, files in os.walk("/mnt/vol1/downloads/transmission/complete/"):
+    for root, dirs, files in os.walk(src_cfg):
         for scanned_file in files:
             if scanned_file.endswith('.mkv'):
                 mkvs.append(scanned_file)
