@@ -4,6 +4,7 @@ import os
 import string
 import logging
 import shutil
+import sys
 
 
 # Compare text of 2 strings ignoring punctuation whitespace and numbers
@@ -54,7 +55,11 @@ def main():
     logging.info("--- STARTING SCAN ---\n")
 
     # Reads csv into array for processing
-    shows = list(csv.reader(open('/mnt/vol1/scripts/tardis/animelist.csv')))
+    try:
+        shows = list(csv.reader(open('/mnt/vol1/scripts/tardis/animelist.csv')))
+    except (OSError, IOError) as e:
+        logging.info('--- CRITICAL ERROR --- ' + str(e) + '\n')
+        sys.exit(1)
 
     # Loads default.cfg with source and destination paths
     #config = [line.rstrip('\n') for line in open('default.cfg')]
