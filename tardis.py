@@ -11,7 +11,7 @@ import ConfigParser
 def createConfig(name):
     config = ConfigParser.ConfigParser()
     config.add_section('General')
-    config.set('General', 'script path', os.path.dirname(os.path.realpath(__file__)))
+    config.set('General', 'script path', os.path.dirname(os.path.realpath(__file__))+'/')
     config.set('General', 'source path', '/mnt/vol1/downloads/transmission/complete/')
     config.set('General', 'destination path', '/mnt/vol1/Video/Anime/')
     config.set('General', 'list file', 'animelist.csv')
@@ -60,21 +60,17 @@ def move_mkv(src, dst):
 
 
 def main():
-    # Temporary Config Vars
-    src_cfg = "/mnt/vol1/downloads/transmission/complete/"
-    dst_cfg = "/mnt/vol1/Video/Anime/"
-    swd_cfg = "/mnt/vol1/scripts/tardis/"
-    log_cfg = "doctor.log"
-    lst_cfg = "animelist.csv"
 
     # Checks if config file exists, if not then creates one
     cfg_file = "settings.cfg"
-    if os.path.exists(cfg_file):
-    else:
+    if not os.path.exists(cfg_file):
         createConfig(cfg_file)
+    
+    config = ConfigParser.ConfigParser()
+    config.read(cfg_file)
 
     # Logger config
-    logging.basicConfig(filename=os.path.dirname(os.path.realpath(__file__))+log_cfg, 
+    logging.basicConfig(filename=config._sections['General']['script path']+config._sections['General']['log file'], 
                         level=logging.INFO,
                         format='%(asctime)s - %(message)s', 
                         datefmt='%m/%d/%Y %I:%M:%S %p')
@@ -82,18 +78,15 @@ def main():
 
     # Reads csv into array for processing
     try:
-        shows = list(csv.reader(open(swd_cfg+lst_cfg)))
+        shows = list(csv.reader(open(config._sections['General']['script path']+config._sections['General']['list file'])))
     except (OSError, IOError) as e:
         logging.critical('--- CRITICAL ERROR --- ' + str(e) + '\n')
         sys.exit(1)
     shows = filter(None, shows)
 
-    # Loads default.cfg with source and destination paths
-    #config = [line.rstrip('\n') for line in open('default.cfg')]
-
     # Scan directory for mkv files and load into array
     mkvs = []
-    for scanned_file in os.listdir(src_cfg):
+    for scanned_file in os.listdir(config._sections['General']['source path']):
         if scanned_file.endswith('.mkv'):
             mkvs.append(scanned_file)
 
@@ -116,8 +109,8 @@ def main():
             episode_number = elmt[show_wildcard] + elmt[show_wildcard+1]
             logging.debug("Episode Number: %s" % episode_number)
 
-            source_path = src_cfg + elmt
-            destination_path = dst_cfg + shows[show_index][1].replace('##', episode_number)
+            source_path = config._sections['General']['source path'] + elmt
+            destination_path = config._sections['General']['destination path'] + shows[show_index][1].replace('##', episode_number)
             move_mkv(source_path, destination_path)
             import_count += 1
 
