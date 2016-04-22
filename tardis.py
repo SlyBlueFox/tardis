@@ -18,8 +18,8 @@ def find_show(video, array):
     for i, elmt in enumerate(array):
         if compare(video, elmt[0]):
             logging.info('Show Found!')
-            logging.info("Matched Template: %s" % elmt[0])
-            logging.info("Location Template: %s" % elmt[1])
+            logging.debug("Matched Template: %s" % elmt[0])
+            logging.debug("Location Template: %s" % elmt[1])
             return i
 
 
@@ -54,15 +54,17 @@ def main():
     lst_cfg = "animelist.csv"
 
     # Logger config
-    logging.basicConfig(filename=swd_cfg+log_cfg, level=logging.DEBUG,
-                        format='%(asctime)s - %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+    logging.basicConfig(filename=swd_cfg+log_cfg, 
+                        level=logging.INFO,
+                        format='%(asctime)s - %(message)s', 
+                        datefmt='%m/%d/%Y %I:%M:%S %p')
     logging.info("--- STARTING SCAN ---\n")
 
     # Reads csv into array for processing
     try:
         shows = list(csv.reader(open(swd_cfg+lst_cfg)))
     except (OSError, IOError) as e:
-        logging.info('--- CRITICAL ERROR --- ' + str(e) + '\n')
+        logging.critical('--- CRITICAL ERROR --- ' + str(e) + '\n')
         sys.exit(1)
 
     # Loads default.cfg with source and destination paths
@@ -85,13 +87,13 @@ def main():
         if show_index is None:
             logging.info("NO MATCH FOUND\n")
         else:
-            logging.info("Show Index: %d" % show_index)
+            logging.debug("Show Index: %d" % show_index)
 
             show_wildcard = find_wildcard(shows, show_index)
-            logging.info("Wildcard Location: %d" % show_wildcard)
+            logging.debug("Wildcard Location: %d" % show_wildcard)
 
             episode_number = elmt[show_wildcard] + elmt[show_wildcard+1]
-            logging.info("Episode Number: %s" % episode_number)
+            logging.debug("Episode Number: %s" % episode_number)
 
             source_path = src_cfg + elmt
             destination_path = dst_cfg + shows[show_index][1].replace('##', episode_number)
