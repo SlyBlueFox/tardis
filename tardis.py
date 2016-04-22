@@ -55,7 +55,7 @@ def move_mkv(src, dst):
             raise
         else:
             logging.debug("Directory already exists")
-#    shutil.move(src, dst)
+    shutil.move(src, dst)
     logging.info("MOVED SUCCESSFULLY\n")
 
 
