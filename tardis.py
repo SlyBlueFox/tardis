@@ -40,8 +40,8 @@ def move_mkv(src, dst):
         if not os.path.isdir(filepath):
             raise
         else:
-            logging.info("Directory already exists")
-    shutil.move(src, dst)
+            logging.debug("Directory already exists")
+#    shutil.move(src, dst)
     logging.info("MOVED SUCCESSFULLY\n")
 
 
@@ -66,6 +66,7 @@ def main():
     except (OSError, IOError) as e:
         logging.critical('--- CRITICAL ERROR --- ' + str(e) + '\n')
         sys.exit(1)
+    shows = filter(None, shows)
 
     # Loads default.cfg with source and destination paths
     #config = [line.rstrip('\n') for line in open('default.cfg')]
