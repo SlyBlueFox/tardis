@@ -5,6 +5,20 @@ import string
 import logging
 import shutil
 import sys
+import ConfigParser
+
+# Creates default config file
+def createConfig(name):
+    config = ConfigParser.ConfigParser()
+    config.add_section('General')
+    config.set('General', 'script path', os.path.dirname(os.path.realpath(__file__)))
+    config.set('General', 'source path', '/mnt/vol1/downloads/transmission/complete/')
+    config.set('General', 'destination path', '/mnt/vol1/Video/Anime/')
+    config.set('General', 'list file', 'animelist.csv')
+    config.set('General', 'log file', 'doctor.log')
+
+    with open(name, 'wb') as config_file:
+        config.write(config_file)
 
 
 # Compare text of 2 strings ignoring punctuation whitespace and numbers
@@ -46,15 +60,21 @@ def move_mkv(src, dst):
 
 
 def main():
-    # Config Vars
+    # Temporary Config Vars
     src_cfg = "/mnt/vol1/downloads/transmission/complete/"
     dst_cfg = "/mnt/vol1/Video/Anime/"
     swd_cfg = "/mnt/vol1/scripts/tardis/"
     log_cfg = "doctor.log"
     lst_cfg = "animelist.csv"
 
+    # Checks if config file exists, if not then creates one
+    cfg_file = "settings.cfg"
+    if os.path.exists(cfg_file):
+    else:
+        createConfig(cfg_file)
+
     # Logger config
-    logging.basicConfig(filename=swd_cfg+log_cfg, 
+    logging.basicConfig(filename=os.path.dirname(os.path.realpath(__file__))+log_cfg, 
                         level=logging.INFO,
                         format='%(asctime)s - %(message)s', 
                         datefmt='%m/%d/%Y %I:%M:%S %p')
@@ -101,8 +121,6 @@ def main():
             move_mkv(source_path, destination_path)
             import_count += 1
 
-#    if import_count > 0:
-#        os.system("http://IPHERE:32400/library/sections/5/refresh?X-Plex-Token=TOKENHERE")
     logging.info("Imported %d episodes\n" % import_count)
     logging.info("--- SCAN COMPLETE ---\n\n")
 
