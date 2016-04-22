@@ -70,10 +70,9 @@ def main():
 
     # Scan directory for mkv files and load into array
     mkvs = []
-    for root, dirs, files in os.walk(src_cfg):
-        for scanned_file in files:
-            if scanned_file.endswith('.mkv'):
-                mkvs.append(scanned_file)
+    for scanned_file in os.listdir(src_cfg):
+        if scanned_file.endswith('.mkv'):
+            mkvs.append(scanned_file)
 
     # Processes each found MKV file
     import_count = 0
