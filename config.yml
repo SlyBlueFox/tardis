@@ -69,6 +69,9 @@ tasks:
         - (.*)HorribleSubs(.*)Tanaka(.*)Itsumo(.*)Kedaruge(.*)1080(.*)
         - (.*)HorribleSubs(.*)Flying(.*)Witch(.*)1080(.*)
         - (.*)HorribleSubs(.*)Big(.*)Order(.*)1080(.*)
+      reject:
+        - (.*)Batch(.*)
+        - (.*)batch(.*)
     transmission:
       host: localhost
       port: 9091
