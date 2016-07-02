@@ -71,6 +71,8 @@ tasks:
         - (.*)HorribleSubs(.*)Big(.*)Order(.*)1080(.*)
         #Summer2016
         - (.*)HorribleSubs(.*)Momokuri(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Love(.*)Live(.*)Sunshine(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Shokugeki(.*)Soma(.*)S2(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
