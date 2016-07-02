@@ -74,6 +74,7 @@ tasks:
         - (.*)HorribleSubs(.*)Love(.*)Live(.*)Sunshine(.*)1080(.*)
         - (.*)HorribleSubs(.*)Shokugeki(.*)Soma(.*)S2(.*)1080(.*)
         - (.*)HorribleSubs(.*)Hatsukoi(.*)Monster(.*)1080(.*)
+        - (.*)HorribleSubs(.*)B(.*)Project(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
