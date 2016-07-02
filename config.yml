@@ -69,6 +69,8 @@ tasks:
         - (.*)HorribleSubs(.*)Tanaka(.*)Itsumo(.*)Kedaruge(.*)1080(.*)
         - (.*)HorribleSubs(.*)Flying(.*)Witch(.*)1080(.*)
         - (.*)HorribleSubs(.*)Big(.*)Order(.*)1080(.*)
+        #Summer2016
+        - (.*)HorribleSubs(.*)Momokuri(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
