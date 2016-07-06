@@ -87,6 +87,7 @@ tasks:
         - (.*)HorribleSubs(.*)Taboo(.*)Tattoo(.*)1080(.*)
         - (.*)HorribleSubs(.*)Fudanshi(.*)Koukou(.*)Seikatsu(.*)1080(.*)
         - (.*)HorribleSubs(.*)Tsukiuta(.*)1080(.*)
+        - (.*)HorribleSubs(.*)PRISMA(.*)3rei(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
