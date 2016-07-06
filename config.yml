@@ -79,6 +79,7 @@ tasks:
         - (.*)HorribleSubs(.*)Fukigen(.*)Mononokean(.*)1080(.*)
         - (.*)HorribleSubs(.*)Arslan(.*)Senki(.*)S2(.*)1080(.*)
         - (.*)HorribleSubs(.*)Tales(.*)Zestiria(.*)1080(.*)
+        - (.*)HorribleSubs(.*)New(.*)Game(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
