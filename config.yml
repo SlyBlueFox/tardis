@@ -76,6 +76,7 @@ tasks:
         - (.*)HorribleSubs(.*)Hatsukoi(.*)Monster(.*)1080(.*)
         - (.*)HorribleSubs(.*)B(.*)Project(.*)1080(.*)
         - (.*)HorribleSubs(.*)DAYS(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Fukigen(.*)Mononokean(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
