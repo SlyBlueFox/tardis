@@ -81,6 +81,11 @@ tasks:
         - (.*)HorribleSubs(.*)Tales(.*)Zestiria(.*)1080(.*)
         - (.*)HorribleSubs(.*)New(.*)Game(.*)1080(.*)
         - (.*)HorribleSubs(.*)Orange(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Cheer(.*)Danshi(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Gray(.*)man(.*)Hallow(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Servamp(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Taboo(.*)Tattoo(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Fudanshi(.*)Koukou(.*)Seikatsu(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
