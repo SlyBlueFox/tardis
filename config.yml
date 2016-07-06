@@ -77,6 +77,7 @@ tasks:
         - (.*)HorribleSubs(.*)B(.*)Project(.*)1080(.*)
         - (.*)HorribleSubs(.*)DAYS(.*)1080(.*)
         - (.*)HorribleSubs(.*)Fukigen(.*)Mononokean(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Arslan(.*)Senki(.*)S2(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
