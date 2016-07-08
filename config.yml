@@ -90,6 +90,7 @@ tasks:
         - (.*)HorribleSubs(.*)PRISMA(.*)3rei(.*)1080(.*)
         - (.*)HorribleSubs(.*)Binan(.*)Love(.*)S2(.*)1080(.*)
         - (.*)HorribleSubs(.*)Kono(.*)Bijutsubu(.*)Mondai(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Amanchu(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
