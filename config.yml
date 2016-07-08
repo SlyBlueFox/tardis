@@ -91,6 +91,7 @@ tasks:
         - (.*)HorribleSubs(.*)Binan(.*)Love(.*)S2(.*)1080(.*)
         - (.*)HorribleSubs(.*)Kono(.*)Bijutsubu(.*)Mondai(.*)1080(.*)
         - (.*)HorribleSubs(.*)Amanchu(.*)1080(.*)
+        - (.*)HorribleSubs(.*)91(.*)Days(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
