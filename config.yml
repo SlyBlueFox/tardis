@@ -97,6 +97,7 @@ tasks:
         - (.*)HorribleSubs(.*)Mob(.*)Psycho(.*)100(.*)1080(.*)
         - (.*)HorribleSubs(.*)Hitori(.*)Shita(.*)Outcast(.*)1080(.*)
         - (.*)HorribleSubs(.*)Qualidea(.*)Code(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Battery(.*)720(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
