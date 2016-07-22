@@ -94,6 +94,7 @@ tasks:
         - (.*)HorribleSubs(.*)91(.*)Days(.*)1080(.*)
         - (.*)DeadFish(.*)Aggressive(.*)Retsuko(.*)720(.*)
         - (.*)HorribleSubs(.*)Handa(.*)kun(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Mob(.*)Psycho(.*)100(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
