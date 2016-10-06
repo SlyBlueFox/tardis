@@ -110,6 +110,7 @@ tasks:
         - (.*)HorribleSubs(.*)Trickster(.*)1080(.*)
         - (.*)HorribleSubs(.*)Nanbaka(.*)1080(.*)
         - (.*)HorribleSubs(.*)Yuri(.*)Ice(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Keijo(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
