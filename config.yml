@@ -106,6 +106,7 @@ tasks:
         - (.*)HorribleSubs(.*)Show(.*)By(.*)Rock(.*)S2(.*)1080(.*)
         - (.*)HorribleSubs(.*)Uta(.*)Prince(.*)Sama(.*)Legend(.*)Star(.*)1080(.*)
         - (.*)HorribleSubs(.*)Touken(.*)Ranbu(.*)Hanamaru(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Natsume(.*)Yuujinchou(.*)Go(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
