@@ -108,6 +108,7 @@ tasks:
         - (.*)HorribleSubs(.*)Touken(.*)Ranbu(.*)Hanamaru(.*)1080(.*)
         - (.*)HorribleSubs(.*)Natsume(.*)Yuujinchou(.*)Go(.*)1080(.*)
         - (.*)HorribleSubs(.*)Trickster(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Nanbaka(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
