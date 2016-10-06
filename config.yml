@@ -101,6 +101,8 @@ tasks:
         - (.*)HorribleSubs(.*)DAYS(.*)1080(.*)
         - (.*)HorribleSubs(.*)Nyanbo(.*)1080(.*)
         - (.*)HorribleSubs(.*)Bloodivores(.*)1080(.*)
+        - (.*)HorribleSubs(.*)WWW.Working(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Magic(.*)Kyun(.*)Renaissance(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
