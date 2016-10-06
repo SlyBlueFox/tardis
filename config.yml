@@ -104,6 +104,7 @@ tasks:
         - (.*)HorribleSubs(.*)WWW.Working(.*)1080(.*)
         - (.*)HorribleSubs(.*)Magic(.*)Kyun(.*)Renaissance(.*)1080(.*)
         - (.*)HorribleSubs(.*)Show(.*)By(.*)Rock(.*)S2(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Uta(.*)Prince(.*)Sama(.*)Legend(.*)Star(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
