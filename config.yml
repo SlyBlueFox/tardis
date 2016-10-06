@@ -108,6 +108,7 @@ tasks:
     clean_transmission:
       host: localhost
       port: 9091
+      tracker: nyaa
       finished_for: 10 minutes
 schedules:
   - tasks: '*'
