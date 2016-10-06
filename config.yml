@@ -100,6 +100,7 @@ tasks:
         - (.*)HorribleSubs(.*)Bungou(.*)Stray(.*)Dogs(.*)1080(.*)
         - (.*)HorribleSubs(.*)DAYS(.*)1080(.*)
         - (.*)HorribleSubs(.*)Nyanbo(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Bloodivores(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
