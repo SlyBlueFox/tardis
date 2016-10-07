@@ -112,6 +112,7 @@ tasks:
         - (.*)HorribleSubs(.*)Yuri(.*)Ice(.*)1080(.*)
         - (.*)HorribleSubs(.*)Keijo(.*)1080(.*)
         - (.*)HorribleSubs(.*)All(.*)Out(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Drifters(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
