@@ -115,6 +115,7 @@ tasks:
         - (.*)HorribleSubs(.*)Drifters(.*)1080(.*)
         - (.*)HorribleSubs(.*)Lostorage(.*)incited(.*)WIXOSS(.*)1080(.*)
         - (.*)HorribleSubs(.*)Haikyuu(.*)S3(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Watashi(.*)Motete(.*)Dousunda(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
