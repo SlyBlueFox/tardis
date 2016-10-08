@@ -117,6 +117,7 @@ tasks:
         - (.*)HorribleSubs(.*)Haikyuu(.*)S3(.*)1080(.*)
         - (.*)HorribleSubs(.*)Watashi(.*)Motete(.*)Dousunda(.*)1080(.*)
         - (.*)HorribleSubs(.*)Long(.*)Riders(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Occultic(.*)Nine(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
