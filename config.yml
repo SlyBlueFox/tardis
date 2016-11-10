@@ -119,7 +119,7 @@ tasks:
         - (.*)HorribleSubs(.*)Long(.*)Riders(.*)1080(.*)
         - (.*)HorribleSubs(.*)Occultic(.*)Nine(.*)1080(.*)
         - (.*)HorribleSubs(.*)Udon(.*)Kuni(.*)Kiniro(.*)Kemari(.*)1080(.*)
-        - (.*)HorribleSubs(.*)Okusama (.*)Seitokaichou(.*)S2(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Okusama(.*)Seitokaichou(.*)S2(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
