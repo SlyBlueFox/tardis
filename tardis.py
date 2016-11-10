@@ -12,7 +12,7 @@ def createConfig(name):
     config = ConfigParser.ConfigParser()
     config.add_section('General')
     config.set('General', 'script path', os.path.dirname(os.path.realpath(__file__))+'/')
-    config.set('General', 'source path', '/mnt/vol1/downloads/transmission/complete/')
+    config.set('General', 'source path', '/mnt/vol1/downloads/transmission/complete/anime')
     config.set('General', 'destination path', '/mnt/vol1/Video/Anime/')
     config.set('General', 'list file', 'animelist.csv')
     config.set('General', 'log file', 'doctor.log')
