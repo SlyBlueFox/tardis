@@ -127,11 +127,11 @@ tasks:
       host: localhost
       port: 9091
       path: /mnt/vol1/downloads/transmission/complete/anime/
-    clean_transmission:
-      host: localhost
-      port: 9091
-      tracker: nyaa
-      finished_for: 10 minutes
+#    clean_transmission:
+#      host: localhost
+#      port: 9091
+#      tracker: nyaa
+#      finished_for: 10 minutes
 schedules:
   - tasks: '*'
     interval:
