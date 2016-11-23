@@ -62,7 +62,7 @@ def move_mkv(src, dst):
 def main():
 
     # Checks if config file exists, if not then creates one
-    cfg_file = "settings.cfg"
+    cfg_file = os.path.dirname(os.path.realpath(__file__))+"/settings.cfg"
     if not os.path.exists(cfg_file):
         createConfig(cfg_file)
     
