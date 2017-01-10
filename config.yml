@@ -35,7 +35,6 @@ tasks:
         - (.*)HorribleSubs(.*)Divine(.*)Gate(.*)1080(.*)
         - (.*)HorribleSubs(.*)Koukaku(.*)Pandora(.*)1080(.*)
         - (.*)HorribleSubs] gate(.*)1080(.*)
-        - (.*)HorribleSubs(.*)Shouwa(.*)Genroku(.*)Rakugo(.*)Shinjuu(.*)1080(.*)
         - (.*)HorribleSubs(.*)Bubuki(.*)Buranki(.*)1080(.*)
         - (.*)HorribleSubs(.*)Luck(.*)Logic(.*)1080(.*)
         - (.*)HorribleSubs(.*)Durarara(.*)X2(.*)1080(.*)
@@ -123,6 +122,7 @@ tasks:
         #Winter2017
         - (.*)HorribleSubs(.*)Ao(.*)no(.*)Exorcist(.*)Kyoto(.*)Fujouou(.*)hen(.*)1080(.*)
         - (.*)HorribleSubs(.*)Fukka(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Shouwa(.*)Genroku(.*)Rakugo(.*)Shinjuu(.*)S2(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
