@@ -127,6 +127,7 @@ tasks:
         - (.*)HorribleSubs(.*)Masamune(.*)kun(.*)Revenge(.*)1080(.*)
         - (.*)HorribleSubs(.*)Youjo(.*)Senki(.*)1080(.*)
         - (.*)HorribleSubs(.*)Spiritpact(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Chain(.*)Chronicle(.*)Haecceitas(.*)Hikari(.*)TV(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
