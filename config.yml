@@ -123,6 +123,7 @@ tasks:
         - (.*)HorribleSubs(.*)Ao(.*)no(.*)Exorcist(.*)Kyoto(.*)Fujouou(.*)hen(.*)1080(.*)
         - (.*)HorribleSubs(.*)Fuuka(.*)1080(.*)
         - (.*)HorribleSubs(.*)Shouwa(.*)Genroku(.*)Rakugo(.*)Shinjuu(.*)S2(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Akiba's(.*)Trip(.*)Animation(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
