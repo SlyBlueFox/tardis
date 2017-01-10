@@ -122,6 +122,7 @@ tasks:
         - (.*)HorribleSubs(.*)Okusama(.*)Seitokaichou(.*)S2(.*)1080(.*)
         #Winter2017
         - (.*)HorribleSubs(.*)Ao(.*)no(.*)Exorcist(.*)Kyoto(.*)Fujouou(.*)hen(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Fukka(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
