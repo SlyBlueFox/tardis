@@ -126,6 +126,7 @@ tasks:
         - (.*)HorribleSubs(.*)Akiba's(.*)Trip(.*)Animation(.*)1080(.*)
         - (.*)HorribleSubs(.*)Masamune(.*)kun(.*)Revenge(.*)1080(.*)
         - (.*)HorribleSubs(.*)Youjo(.*)Senki(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Spiritpact(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
