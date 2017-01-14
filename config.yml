@@ -131,6 +131,7 @@ tasks:
         - (.*)HorribleSubs(.*)ChaoS(.*)Child(.*)1080(.*)
         - (.*)HorribleSubs(.*)Hand(.*)Shakers(.*)1080(.*)
         - (.*)HorribleSubs(.*)Subarashii(.*)Shukufuku(.*)2(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Marginal(.*)Kiss(.*)kara(.*)Tsukuru(.*)Big(.*)Bang(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
