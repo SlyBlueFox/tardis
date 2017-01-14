@@ -130,6 +130,7 @@ tasks:
         - (.*)HorribleSubs(.*)Chain(.*)Chronicle(.*)Haecceitas(.*)Hikari(.*)TV(.*)1080(.*)
         - (.*)HorribleSubs(.*)ACCA(.*)Kansatsu(.*)1080(.*)
         - (.*)HorribleSubs(.*)ChaoS(.*)Child(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Hand(.*)Shakers(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
