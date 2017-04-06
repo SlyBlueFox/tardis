@@ -134,6 +134,7 @@ tasks:
         - (.*)HorribleSubs(.*)Marginal(.*)Kiss(.*)kara(.*)Tsukuru(.*)Big(.*)Bang(.*)1080(.*)
         #Spring 2017
         - (.*)HorribleSubs(.*)Gin(.*)Guardian(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Granblue(.*)Fantasy(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
