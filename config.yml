@@ -12,7 +12,6 @@ tasks:
         - (.*)HorribleSubs(.*)Owarimonogatari(.*)1080(.*)
         - (.*)HorribleSubs(.*)Shingeki(.*)Kyojin(.*)Chuugakkou(.*)1080(.*)
         - (.*)HorribleSubs(.*)One(.*)Punch(.*)Man(.*)1080(.*)
-        - (.*)HorribleSubs(.*)High(.*)School(.*)Star(.*)Musical(.*)1080(.*)
         - (.*)HorribleSubs(.*)YuruYuri(.*)1080(.*)
         - (.*)HorribleSubs(.*)Dance(.*)with(.*)Devils(.*)1080(.*)
         - (.*)HorribleSubs(.*)Rakudai(.*)Kishi(.*)1080(.*)
@@ -136,6 +135,8 @@ tasks:
         - (.*)HorribleSubs(.*)Gin(.*)Guardian(.*)1080(.*)
         - (.*)HorribleSubs(.*)Granblue(.*)Fantasy(.*)1080(.*)
         - (.*)HorribleSubs(.*)Rokudenashi(.*)Majutsu(.*)Akashic(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Busou(.*)Shoujo(.*)Machiavellianism(.*)1080(.*)
+        - (.*)HorribleSubs(.*)High(.*)School(.*)Star(.*)Musical(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
