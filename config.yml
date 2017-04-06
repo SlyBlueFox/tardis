@@ -135,6 +135,7 @@ tasks:
         #Spring 2017
         - (.*)HorribleSubs(.*)Gin(.*)Guardian(.*)1080(.*)
         - (.*)HorribleSubs(.*)Granblue(.*)Fantasy(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Rokudenashi(.*)Majutsu(.*)Akashic(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
