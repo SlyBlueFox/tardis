@@ -118,7 +118,7 @@ tasks:
         - (.*)HorribleSubs(.*)Occultic(.*)Nine(.*)1080(.*)
         - (.*)HorribleSubs(.*)Udon(.*)Kuni(.*)Kiniro(.*)Kemari(.*)1080(.*)
         - (.*)HorribleSubs(.*)Okusama(.*)Seitokaichou(.*)S2(.*)1080(.*)
-        #Winter2017
+        #Winter 2017
         - (.*)HorribleSubs(.*)Ao(.*)no(.*)Exorcist(.*)Kyoto(.*)Fujouou(.*)hen(.*)1080(.*)
         - (.*)HorribleSubs(.*)Fuuka(.*)1080(.*)
         - (.*)HorribleSubs(.*)Shouwa(.*)Genroku(.*)Rakugo(.*)Shinjuu(.*)S2(.*)1080(.*)
@@ -132,6 +132,8 @@ tasks:
         - (.*)HorribleSubs(.*)Hand(.*)Shakers(.*)1080(.*)
         - (.*)HorribleSubs(.*)Subarashii(.*)Shukufuku(.*)2(.*)1080(.*)
         - (.*)HorribleSubs(.*)Marginal(.*)Kiss(.*)kara(.*)Tsukuru(.*)Big(.*)Bang(.*)1080(.*)
+        #Spring 2017
+        - (.*)HorribleSubs(.*)Gin(.*)Guardian(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
