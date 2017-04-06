@@ -137,6 +137,7 @@ tasks:
         - (.*)HorribleSubs(.*)Rokudenashi(.*)Majutsu(.*)Akashic(.*)1080(.*)
         - (.*)HorribleSubs(.*)Busou(.*)Shoujo(.*)Machiavellianism(.*)1080(.*)
         - (.*)HorribleSubs(.*)High(.*)School(.*)Star(.*)Musical(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Sagrada(.*)Reset(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
