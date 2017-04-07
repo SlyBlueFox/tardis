@@ -138,6 +138,9 @@ tasks:
         - (.*)HorribleSubs(.*)Busou(.*)Shoujo(.*)Machiavellianism(.*)1080(.*)
         - (.*)HorribleSubs(.*)High(.*)School(.*)Star(.*)Musical(.*)1080(.*)
         - (.*)HorribleSubs(.*)Sagrada(.*)Reset(.*)1080(.*)
+        - (.*)HorribleSubs(.*) Oushitsu(.*) Kyoushi(.*) Haine(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Clockwork(.*)Planet(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Renai(.*)Boukun(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
