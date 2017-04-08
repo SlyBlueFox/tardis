@@ -141,6 +141,8 @@ tasks:
         - (.*)HorribleSubs(.*) Oushitsu(.*) Kyoushi(.*) Haine(.*)1080(.*)
         - (.*)HorribleSubs(.*)Clockwork(.*)Planet(.*)1080(.*)
         - (.*)HorribleSubs(.*)Renai(.*)Boukun(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Kabukibu(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Shingeki(.*)Bahamut(.*)Virgin(.*)Soul(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
