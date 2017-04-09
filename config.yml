@@ -143,6 +143,9 @@ tasks:
         - (.*)HorribleSubs(.*)Renai(.*)Boukun(.*)1080(.*)
         - (.*)HorribleSubs(.*)Kabukibu(.*)1080(.*)
         - (.*)HorribleSubs(.*)Shingeki(.*)Bahamut(.*)Virgin(.*)Soul(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Kabukibu(.*)720(.*)
+        - (.*)HorribleSubs(.*)Shingeki(.*)Bahamut(.*)Virgin(.*)Soul(.*)720(.*)
+        - (.*)HorribleSubs(.*)Re(.*)Creators(.*)720(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
