@@ -146,6 +146,10 @@ tasks:
         - (.*)HorribleSubs(.*)Shingeki(.*)Bahamut(.*)Virgin(.*)Soul(.*)720(.*)
         - (.*)HorribleSubs(.*)Re(.*)Creators(.*)720(.*)
         - (.*)HorribleSubs(.*)Zero(.*)kara(.*)Hajimeru(.*)Mahou(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Fukumenkei(.*)Noise(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Natsume(.*)Yuujinchou(.*)Roku(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Kenka(.*)Banchou(.*)Otome(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Room(.*)Mate(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
