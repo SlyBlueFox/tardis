@@ -151,7 +151,7 @@ tasks:
         - (.*)HorribleSubs(.*)Kenka(.*)Banchou(.*)Otome(.*)1080(.*)
         - (.*)HorribleSubs(.*)Room(.*)Mate(.*)1080(.*)
         - (.*)HorribleSubs(.*)Saekano(.*)S2(.*)720(.*)
-        - (.*)HorribleSubs(.*)Sword(.*)Oratoria(.*)1080(.*)
+        - (.*)HorribleSubs(.*)DanMachi(.*)Gaiden(.*)Sword(.*)Oratoria(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
