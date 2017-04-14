@@ -150,6 +150,7 @@ tasks:
         - (.*)HorribleSubs(.*)Natsume(.*)Yuujinchou(.*)Roku(.*)1080(.*)
         - (.*)HorribleSubs(.*)Kenka(.*)Banchou(.*)Otome(.*)1080(.*)
         - (.*)HorribleSubs(.*)Room(.*)Mate(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Saekano(.*)S2(.*)720(.*)        
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
