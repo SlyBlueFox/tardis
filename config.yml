@@ -1,6 +1,6 @@
 tasks:
   anime:
-    rss: http://www.nyaa.se/?page=rss&cats=1_37
+    rss: http://horriblesubs.info/rss.php?res=all
     regexp:
       accept:
         - (.*)HorribleSubs(.*)Diabolik(.*)Lovers(.*)Blood(.*)1080(.*)
