@@ -154,6 +154,7 @@ tasks:
         #Summer 2017
         - (.*)HorribleSubs(.*)Katsugeki(.*)Touken(.*)Ranbu(.*)1080(.*)
         - (.*)HorribleSubs(.*)Keppeki(.*)Danshi(.*)Aoyama(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Youkai(.*)Apartment(.*)Nichijou(.*)1080(.*)
         - (.*)HorribleSubs(.*)Koi(.*)Uso(.*)1080(.*)
         - (.*)HorribleSubs(.*)Tsurezure(.*)Children(.*)1080(.*)
         - (.*)HorribleSubs(.*)Nana(.*)Maru(.*)San(.*)Batsu(.*)1080(.*)
