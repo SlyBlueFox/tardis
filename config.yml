@@ -35,7 +35,6 @@ tasks:
         - (.*)HorribleSubs(.*)Koukaku(.*)Pandora(.*)1080(.*)
         - (.*)HorribleSubs] gate(.*)1080(.*)
         - (.*)HorribleSubs(.*)Bubuki(.*)Buranki(.*)1080(.*)
-        - (.*)HorribleSubs(.*)Luck(.*)Logic(.*)1080(.*)
         - (.*)HorribleSubs(.*)Durarara(.*)X2(.*)1080(.*)
         - (.*)HorribleSubs(.*)World(.*)Trigger(.*)1080(.*)
         - (.*)HorribleSubs(.*)Dimension(.*)W(.*)1080(.*)
