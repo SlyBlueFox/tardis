@@ -158,6 +158,7 @@ tasks:
         - (.*)HorribleSubs(.*)Koi(.*)Uso(.*)1080(.*)
         - (.*)HorribleSubs(.*)Tsurezure(.*)Children(.*)1080(.*)
         - (.*)HorribleSubs(.*)Nana(.*)Maru(.*)San(.*)Batsu(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Dive(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
