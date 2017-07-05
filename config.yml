@@ -151,6 +151,12 @@ tasks:
         - (.*)HorribleSubs(.*)Room(.*)Mate(.*)1080(.*)
         - (.*)HorribleSubs(.*)Saekano(.*)S2(.*)720(.*)
         - (.*)HorribleSubs(.*)DanMachi(.*)Gaiden(.*)Sword(.*)Oratoria(.*)1080(.*)
+        #Summer 2017
+        - (.*)HorribleSubs(.*)Katsugeki(.*)Touken(.*)Ranbu(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Keppeki(.*)Danshi(.*)Aoyama(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Koi(.*)Uso(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Tsurezure(.*)Children(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Nana(.*)Maru(.*)San(.*)Batsu(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
