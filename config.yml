@@ -157,6 +157,7 @@ tasks:
         - (.*)HorribleSubs(.*)Youkai(.*)Apartment(.*)Nichijou(.*)1080(.*)
         - (.*)HorribleSubs(.*)Koi(.*)Uso(.*)1080(.*)
         - (.*)HorribleSubs(.*)Tsurezure(.*)Children(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Saiyuki(.*)Reload(.*)Blast(.*)1080(.*)
         - (.*)HorribleSubs(.*)Nana(.*)Maru(.*)San(.*)Batsu(.*)1080(.*)
         - (.*)HorribleSubs(.*)Dive(.*)1080(.*)
       reject:
