@@ -160,6 +160,7 @@ tasks:
         - (.*)HorribleSubs(.*)Saiyuki(.*)Reload(.*)Blast(.*)1080(.*)
         - (.*)HorribleSubs(.*)Nana(.*)Maru(.*)San(.*)Batsu(.*)1080(.*)
         - (.*)HorribleSubs(.*)Dive(.*)1080(.*)
+        - (.*)HorribleSubs(.*)18if(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
