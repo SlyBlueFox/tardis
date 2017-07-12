@@ -165,6 +165,7 @@ tasks:
         - (.*)HorribleSubs(.*)Jikan(.*)Shihaisha(.*)1080(.*)
         - (.*)HorribleSubs(.*)Princess(.*)Principal(.*)1080(.*)
         - (.*)HorribleSubs(.*)New(.*)Game(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Isekai(.*)Smartphone(.*)Tomo(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
