@@ -162,6 +162,8 @@ tasks:
         - (.*)HorribleSubs(.*)Dive(.*)1080(.*)
         - (.*)HorribleSubs(.*)18if(.*)1080(.*)
         - (.*)HorribleSubs(.*)Hitorijime(.*)My(.*)Hero(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Jikan(.*)Shihaisha(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Princess(.*)Principal(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
