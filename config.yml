@@ -166,6 +166,9 @@ tasks:
         - (.*)HorribleSubs(.*)Princess(.*)Principal(.*)1080(.*)
         - (.*)HorribleSubs(.*)New(.*)Game(.*)1080(.*)
         - (.*)HorribleSubs(.*)Isekai(.*)Smartphone(.*)Tomo(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Hajimete(.*)Gal(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Youkoso(.*)Jitsuryoku(.*)Shijou(.*)Shugi(.*)Kyoushitsu(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Clione(.*)Akari(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
