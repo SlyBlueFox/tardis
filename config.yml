@@ -169,6 +169,7 @@ tasks:
         - (.*)HorribleSubs(.*)Hajimete(.*)Gal(.*)1080(.*)
         - (.*)HorribleSubs(.*)Youkoso(.*)Jitsuryoku(.*)Shijou(.*)Shugi(.*)Kyoushitsu(.*)1080(.*)
         - (.*)HorribleSubs(.*)Clione(.*)Akari(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Gamers(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
