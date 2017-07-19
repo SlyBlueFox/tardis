@@ -160,6 +160,8 @@ tasks:
         - (.*)HorribleSubs(.*)Saiyuki(.*)Reload(.*)Blast(.*)1080(.*)
         - (.*)HorribleSubs(.*)Nana(.*)Maru(.*)San(.*)Batsu(.*)1080(.*)
         - (.*)HorribleSubs(.*)Dive(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Made(.*)Abyss(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Konbini(.*)Kareshi(.*)1080(.*)
         - (.*)HorribleSubs(.*)18if(.*)1080(.*)
         - (.*)HorribleSubs(.*)Hitorijime(.*)My(.*)Hero(.*)1080(.*)
         - (.*)HorribleSubs(.*)Jikan(.*)Shihaisha(.*)1080(.*)
