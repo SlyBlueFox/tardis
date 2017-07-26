@@ -166,6 +166,7 @@ tasks:
         - (.*)HorribleSubs(.*)Ballroom(.*)Youkoso(.*)1080(.*)
         - (.*)HorribleSubs(.*)Hitorijime(.*)My(.*)Hero(.*)1080(.*)
         - (.*)HorribleSubs(.*)Jikan(.*)Shihaisha(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Shoukoku(.*)Altair(.*)1080(.*)
         - (.*)HorribleSubs(.*)Princess(.*)Principal(.*)1080(.*)
         - (.*)HorribleSubs(.*)New(.*)Game(.*)1080(.*)
         - (.*)HorribleSubs(.*)Isekai(.*)Smartphone(.*)Tomo(.*)1080(.*)
