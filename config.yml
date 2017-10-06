@@ -182,6 +182,9 @@ tasks:
         - (.*)HorribleSubs(.*)Black(.*)Clover(.*)1080(.*)
         - (.*)HorribleSubs(.*)URAHARA(.*)1080(.*)
         - (.*)HorribleSubs(.*)Shokugeki(.*)Soma(.*)S3(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Tsukipro(.*)Animation(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Ame(.*)con!!(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Just(.*)Because(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
