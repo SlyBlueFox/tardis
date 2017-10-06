@@ -179,6 +179,9 @@ tasks:
         - (.*)HorribleSubs(.*)iDOLM@STER(.*)Side(.*)M(.*)1080(.*)
         - (.*)HorribleSubs(.*)UQ(.*)Holder(.*)1080(.*)
         - (.*)HorribleSubs(.*)Sengoku(.*)Night(.*)Blood(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Black(.*)Clover(.*)1080(.*)
+        - (.*)HorribleSubs(.*)URAHARA(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Shokugeki(.*)Soma(.*)S3(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
