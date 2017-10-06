@@ -185,6 +185,7 @@ tasks:
         - (.*)HorribleSubs(.*)Tsukipro(.*)Animation(.*)1080(.*)
         - (.*)HorribleSubs(.*)Ame(.*)con!!(.*)1080(.*)
         - (.*)HorribleSubs(.*)Just(.*)Because(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Ousama(.*)Game(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
