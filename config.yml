@@ -186,6 +186,9 @@ tasks:
         - (.*)HorribleSubs(.*)Ame(.*)con!!(.*)1080(.*)
         - (.*)HorribleSubs(.*)Just(.*)Because(.*)1080(.*)
         - (.*)HorribleSubs(.*)Ousama(.*)Game(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Kino(.*)Tabi(.*)2017(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Shoujo(.*)Shuumatsu(.*)Ryokou (.*)1080(.*)
+        - (.*)HorribleSubs(.*)Dynamic(.*)Chord(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
