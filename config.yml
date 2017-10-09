@@ -199,6 +199,7 @@ tasks:
         - (.*)HorribleSubs(.*)Imouto(.*)sae(.*)Ireba (.*)1080(.*)
         - (.*)HorribleSubs(.*)Blend(.*)S(.*)1080(.*)
         - (.*)HorribleSubs(.*)Animegataris(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Wake(.*)Up(.*)Girls(.*)Shin(.*)Shou(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
