@@ -189,6 +189,9 @@ tasks:
         - (.*)HorribleSubs(.*)Kino(.*)Tabi(.*)2017(.*)1080(.*)
         - (.*)HorribleSubs(.*)Shoujo(.*)Shuumatsu(.*)Ryokou (.*)1080(.*)
         - (.*)HorribleSubs(.*)Dynamic(.*)Chord(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Taishou(.*)Chicchai(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Dies(.*)Irae(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Code(.*)Realize(.*)Sousei(.*)Himegimi(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
