@@ -195,6 +195,7 @@ tasks:
         - (.*)HorribleSubs(.*)Love(.*)Live(.*)Sunshine(.*)S2(.*)1080(.*)
         - (.*)HorribleSubs(.*)Garo(.*)Vanishing(.*)Line(.*)1080(.*)
         - (.*)HorribleSubs(.*)Himouto(.*)Umaru(.*)chan(.*)R(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Kekkai(.*)Sensen(.*)Beyond(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
