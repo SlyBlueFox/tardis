@@ -200,6 +200,8 @@ tasks:
         - (.*)HorribleSubs(.*)Blend(.*)S(.*)1080(.*)
         - (.*)HorribleSubs(.*)Animegataris(.*)1080(.*)
         - (.*)HorribleSubs(.*)Wake(.*)Up(.*)Girls(.*)Shin(.*)Shou(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Evil(.*)Live(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Inuyashiki(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
