@@ -203,6 +203,8 @@ tasks:
         - (.*)HorribleSubs(.*)Wake(.*)Up(.*)Girls(.*)Shin(.*)Shou(.*)1080(.*)
         - (.*)HorribleSubs(.*)Evil(.*)Live(.*)1080(.*)
         - (.*)HorribleSubs(.*)Inuyashiki(.*)1080(.*)
+        #Winter 2018
+        - (.*)HorribleSubs(.*)IDOLiSH7(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
