@@ -215,6 +215,7 @@ tasks:
         - (.*)HorribleSubs(.*)Hakata(.*)Tonkotsu(.*)Ramens(.*)1080(.*)
         - (.*)HorribleSubs(.*)Miira(.*)Kaikata(.*)1080(.*)
         - (.*)HorribleSubs(.*)Darling(.*)FranXX(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Beatless(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
