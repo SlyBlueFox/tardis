@@ -205,6 +205,7 @@ tasks:
         - (.*)HorribleSubs(.*)Inuyashiki(.*)1080(.*)
         #Winter 2018
         - (.*)HorribleSubs(.*)IDOLiSH7(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Ito(.*)Junji(.*)Collection(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
