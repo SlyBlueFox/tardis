@@ -208,6 +208,7 @@ tasks:
         - (.*)HorribleSubs(.*)Ito(.*)Junji(.*)Collection(.*)1080(.*)
         - (.*)HorribleSubs(.*)Sanrio(.*)Danshi(.*)1080(.*)
         - (.*)HorribleSubs(.*)Pop(.*)Team(.*)Epic(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Gakuen(.*)Babysitters(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
