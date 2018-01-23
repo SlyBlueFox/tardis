@@ -213,6 +213,7 @@ tasks:
         - (.*)HorribleSubs(.*)Dame(.*)Prince(.*)Caravan(.*)1080(.*)
         - (.*)HorribleSubs(.*)Violet(.*)Evergarden(.*)1080(.*)
         - (.*)HorribleSubs(.*)Hakata(.*)Tonkotsu(.*)Ramens(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Miira(.*)Kaikata(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
