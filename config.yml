@@ -211,6 +211,7 @@ tasks:
         - (.*)HorribleSubs(.*)Gakuen(.*)Babysitters(.*)1080(.*)
         - (.*)HorribleSubs(.*)Kokkoku(.*)1080(.*)
         - (.*)HorribleSubs(.*)Dame(.*)Prince(.*)Caravan(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Violet(.*)Evergarden(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
