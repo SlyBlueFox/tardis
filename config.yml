@@ -228,6 +228,7 @@ tasks:
         - (.*)HorribleSubs(.*)Comic(.*)Girls(.*)1080(.*)
         - (.*)HorribleSubs(.*)Lostorage(.*)Conflated(.*)WIXOSS(.*)1080(.*)
         - (.*)HorribleSubs(.*)Major(.*)2nd(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Devils(.*)Line(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
