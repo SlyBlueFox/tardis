@@ -226,6 +226,8 @@ tasks:
         - (.*)HorribleSubs(.*)Tada(.*)Koi(.*)Shinai(.*)1080(.*)
         - (.*)HorribleSubs(.*)Megalo(.*)Box(.*)1080(.*)
         - (.*)HorribleSubs(.*)Comic(.*)Girls(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Lostorage(.*)Conflated(.*)WIXOSS(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Major(.*)2nd(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
