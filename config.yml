@@ -217,6 +217,8 @@ tasks:
         - (.*)HorribleSubs(.*)Darling(.*)FranXX(.*)1080(.*)
         - (.*)HorribleSubs(.*)Beatless(.*)1080(.*)
         - (.*)HorribleSubs(.*)Killing(.*)Bites(.*)1080(.*)
+        #Spring 2018
+        - (.*)HorribleSubs(.*)Mahou(.*)Shoujo(.*)Ore(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
