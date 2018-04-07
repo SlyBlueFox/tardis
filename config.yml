@@ -222,6 +222,7 @@ tasks:
         - (.*)HorribleSubs(.*)Kakuriyo(.*)Yadomeshi(.*)1080(.*)
         - (.*)HorribleSubs(.*)Tokyo(.*)Ghoul(.*)re(.*)1080(.*)
         - (.*)HorribleSubs(.*)Uchuu(.*)Senkan(.*)Tiramisu(.*)1080(.*)
+        - (.*)HorribleSubs(.*)3D(.*)Kanojo(.*)Real(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
