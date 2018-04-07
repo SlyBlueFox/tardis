@@ -219,6 +219,7 @@ tasks:
         - (.*)HorribleSubs(.*)Killing(.*)Bites(.*)1080(.*)
         #Spring 2018
         - (.*)HorribleSubs(.*)Mahou(.*)Shoujo(.*)Ore(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Kakuriyo(.*)Yadomeshi(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
