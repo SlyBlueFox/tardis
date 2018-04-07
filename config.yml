@@ -221,6 +221,7 @@ tasks:
         - (.*)HorribleSubs(.*)Mahou(.*)Shoujo(.*)Ore(.*)1080(.*)
         - (.*)HorribleSubs(.*)Kakuriyo(.*)Yadomeshi(.*)1080(.*)
         - (.*)HorribleSubs(.*)Tokyo(.*)Ghoul(.*)re(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Uchuu(.*)Senkan(.*)Tiramisu(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
