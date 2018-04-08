@@ -229,6 +229,7 @@ tasks:
         - (.*)HorribleSubs(.*)Major(.*)2nd(.*)1080(.*)
         - (.*)HorribleSubs(.*)Devils(.*)Line(.*)1080(.*)
         - (.*)HorribleSubs(.*)Amanchu(.*)Advance(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Sword(.*)Art(.*)Online(.*)Alternative(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
