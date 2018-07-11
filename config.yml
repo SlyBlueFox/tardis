@@ -231,6 +231,8 @@ tasks:
         - (.*)HorribleSubs(.*)Amanchu(.*)Advance(.*)1080(.*)
         - (.*)HorribleSubs(.*)Sword(.*)Art(.*)Online(.*)Alternative(.*)1080(.*)
         - (.*)HorribleSubs(.*)Caligula(.*)1080(.*)
+        #Summer 2018
+        - (.*)HorribleSubs(.*)Free(.*)Dive(.*)Future(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
