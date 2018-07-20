@@ -233,6 +233,7 @@ tasks:
         - (.*)HorribleSubs(.*)Caligula(.*)1080(.*)
         #Summer 2018
         - (.*)HorribleSubs(.*)Free(.*)Dive(.*)Future(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Banana(.*)Fish(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
