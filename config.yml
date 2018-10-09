@@ -240,6 +240,7 @@ tasks:
         - (.*)HorribleSubs(.*)Jingai-san(.*)no(.*)Yome(.*)1080(.*)
         - (.*)HorribleSubs(.*)Seishun(.*)Buta(.*)Bunny(.*)Girl(.*)1080(.*)
         - (.*)HorribleSubs(.*)Zombieland(.*)Saga(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Yagate(.*)Kimi (.*)Naru(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
