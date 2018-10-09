@@ -234,6 +234,8 @@ tasks:
         #Summer 2018
         - (.*)HorribleSubs(.*)Free(.*)Dive(.*)Future(.*)1080(.*)
         - (.*)HorribleSubs(.*)Banana(.*)Fish(.*)1080(.*)
+        #Fall 2018
+        - (.*)HorribleSubs(.*)Tensei(.*)Slime(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
