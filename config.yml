@@ -247,6 +247,9 @@ tasks:
         - (.*)HorribleSubs(.*)Irozuku(.*)Sekai(.*)Ashita(.*)1080(.*)
         - (.*)HorribleSubs(.*)Radiant(.*)1080(.*)
         - (.*)HorribleSubs(.*)Dakaretai(.*)Otoko(.*)Odosarete(.*)Imasu(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Sword(.*)Art(.*)Online(.*)Alicization(.*)1080(.*)
+        - (.*)HorribleSubs(.*)SSSS(.*)Gridman(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Release(.*)Spyce(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
