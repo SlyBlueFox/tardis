@@ -241,6 +241,9 @@ tasks:
         - (.*)HorribleSubs(.*)Seishun(.*)Buta(.*)Bunny(.*)Girl(.*)1080(.*)
         - (.*)HorribleSubs(.*)Zombieland(.*)Saga(.*)1080(.*)
         - (.*)HorribleSubs(.*)Yagate(.*)Kimi (.*)Naru(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Uchi(.*)Maid(.*)Uzasugiru(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Hinomaru(.*)Sumo(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Bakumatsu(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
