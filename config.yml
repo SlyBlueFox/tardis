@@ -244,6 +244,9 @@ tasks:
         - (.*)HorribleSubs(.*)Uchi(.*)Maid(.*)Uzasugiru(.*)1080(.*)
         - (.*)HorribleSubs(.*)Hinomaru(.*)Sumo(.*)1080(.*)
         - (.*)HorribleSubs(.*)Bakumatsu(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Irozuku(.*)Sekai(.*)Ashita(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Radiant(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Dakaretai(.*)Otoko(.*)Odosarete(.*)Imasu(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
