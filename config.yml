@@ -236,6 +236,7 @@ tasks:
         - (.*)HorribleSubs(.*)Banana(.*)Fish(.*)1080(.*)
         #Fall 2018
         - (.*)HorribleSubs(.*)Tensei(.*)Slime(.*)1080(.*)
+        - (.*)HorribleSubs(.*)Kaze(.*)ga(.*)Tsuyoku(.*)Fuiteiru(.*)1080(.*)
       reject:
         - (.*)Batch(.*)
         - (.*)batch(.*)
